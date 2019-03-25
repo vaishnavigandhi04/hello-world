@@ -1,0 +1,25 @@
+{
+  "name": "class9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnavigandhi04/hello-world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaishnavigandhi04/hello-world/issues"
+  },
+  "homepage": "https://github.com/vaishnavigandhi04/hello-world#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3",
+    "request": "^2.88.0"
+  }
+}
