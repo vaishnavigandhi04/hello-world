@@ -30,25 +30,25 @@ hbs.registerHelper('message', (text) => {
 //
 // });
 
-app.use((request, response, next) => {
-    // var time = new Date().toString();
-    // //console.log(${time}: ${request.method} ${request.url});
-    // var log = `${time}: ${request.method} ${request.url}`;
-    // fs.appendFile('server.log', log + '\n', (error) => {
-    //     if (error) {
-    //         console.log('Unable to log message');
-    //     }
-    // });
-
-    response.render('construction.hbs', {
-        title: 'Maintenence',
-        year: new Date().getFullYear(),
-        welcome: 'Sorry for the inconvenience !'
-    });
-
-
-    //next();
-});
+// app.use((request, response, next) => {
+//     // var time = new Date().toString();
+//     // //console.log(${time}: ${request.method} ${request.url});
+//     // var log = `${time}: ${request.method} ${request.url}`;
+//     // fs.appendFile('server.log', log + '\n', (error) => {
+//     //     if (error) {
+//     //         console.log('Unable to log message');
+//     //     }
+//     // });
+//
+//     response.render('construction.hbs', {
+//         title: 'Maintenence',
+//         year: new Date().getFullYear(),
+//         welcome: 'Sorry for the inconvenience !'
+//     });
+//
+//
+//     //next();
+// });
 
 app.get('/', (request, response) => {
     // response.send('<h1>Hello Express!</h1>');
